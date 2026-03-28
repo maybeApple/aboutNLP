@@ -2,6 +2,8 @@
 
 一个面向论文场景的知识图谱项目。它从 `CSV/JSONL` 论文记录中读取标题与摘要，调用 LLM 抽取 `TASK / METHOD / DATASET / METRIC / RESULT`，将结果写入 Neo4j，并提供 Streamlit 检索界面。
 
+![Uploading image.png…]()
+
 ## 项目内容
 
 - 论文数据导入：支持 `csv`、`jsonl`，也支持单文件 `docx` / `txt` 的兼容导入
