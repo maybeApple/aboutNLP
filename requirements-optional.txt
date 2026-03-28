@@ -1,0 +1,2 @@
+# Optional dense embedding support.
+sentence-transformers>=2.2.0

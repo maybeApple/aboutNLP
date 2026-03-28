@@ -1,0 +1,26 @@
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime artifacts
+logs/
+runtime/
+.local/
+
+# Local notes and legacy files that are not required for GitHub
+NEXT_SESSION.md
+WORKLOG.md
+中文指导
+lecture14.doc

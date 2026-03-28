@@ -1,0 +1,14 @@
+services:
+  neo4j:
+    image: neo4j:5
+    container_name: paper-kb-neo4j
+    restart: unless-stopped
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:-please-change-this-password}
+    volumes:
+      - ./.local/neo4j/data:/data
+      - ./.local/neo4j/logs:/logs
+      - ./.local/neo4j/plugins:/plugins
